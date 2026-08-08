@@ -11,7 +11,6 @@ This project is built as the front-end/demo layer for an **AI Agents Capstone**
 `Agent` / `Runner` / `function_tool` / `handoff` / human-in-the-loop approval).
 
 ---
-# AI Enterprise Knowledge Manager
 
 A multi-agent AI knowledge management system built with the OpenAI Agents SDK and Groq. The system answers employee questions by searching company knowledge, checking policies, analyzing documents, and generating recommendations.
 
@@ -34,14 +33,6 @@ A multi-agent AI knowledge management system built with the OpenAI Agents SDK an
 - Human-in-the-loop approval
 - Structured output
 - Error handling and retry mechanism
-
-## Tech Stack
-
-- Python
-- OpenAI Agents SDK
-- Groq
-- Pydantic
-- Google Colab
 
 ## Example
 
