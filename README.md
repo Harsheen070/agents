@@ -11,7 +11,68 @@ This project is built as the front-end/demo layer for an **AI Agents Capstone**
 `Agent` / `Runner` / `function_tool` / `handoff` / human-in-the-loop approval).
 
 ---
+````markdown
+# AI Enterprise Knowledge Manager
 
+A multi-agent AI knowledge management system built with the OpenAI Agents SDK and Groq. The system answers employee questions by searching company knowledge, checking policies, analyzing documents, and generating recommendations.
+
+## Agents
+
+- Coordinator Agent - Routes user queries.
+- Search Agent - Searches the company knowledge base.
+- Document Reader Agent - Retrieves and analyzes relevant documents.
+- Policy Expert Agent - Checks organizational policies and requirements.
+- Meeting Memory Agent - Maintains session context and history.
+- Recommendation Agent - Generates actionable recommendations.
+- Knowledge Curator Agent - Reviews recommendations for accuracy and policy alignment.
+
+## Key Features
+
+- Multi-agent workflow and handoffs
+- Knowledge base and policy search
+- Shared context and session memory
+- Tool and function calling
+- Human-in-the-loop approval
+- Structured output
+- Error handling and retry mechanism
+
+## Tech Stack
+
+- Python
+- OpenAI Agents SDK
+- Groq
+- Pydantic
+- Google Colab
+
+## Example
+
+User query:
+
+"Can I work remotely? What are the requirements?"
+
+The agents search the knowledge base, retrieve the relevant remote-work policy, check eligibility and approval requirements, and generate a recommendation.
+
+## Project Files
+
+- `Agents_Capstone.ipynb` - Complete implementation of the multi-agent knowledge manager.
+
+## Setup
+
+Install the required dependencies:
+
+```bash
+pip install openai-agents openai pydantic python-dotenv
+````
+
+Set your Groq API key before running the notebook.
+
+## Human Approval
+
+Sensitive requests such as promotion, salary, compensation, or executive decisions can trigger a human approval checkpoint before the recommendation is stored.
+
+```
+```
+---
 ## Table of contents
 
 - [What this app does](#what-this-app-does)
