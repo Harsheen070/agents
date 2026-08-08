@@ -11,7 +11,6 @@ This project is built as the front-end/demo layer for an **AI Agents Capstone**
 `Agent` / `Runner` / `function_tool` / `handoff` / human-in-the-loop approval).
 
 ---
-````markdown
 # AI Enterprise Knowledge Manager
 
 A multi-agent AI knowledge management system built with the OpenAI Agents SDK and Groq. The system answers employee questions by searching company knowledge, checking policies, analyzing documents, and generating recommendations.
@@ -70,8 +69,6 @@ Set your Groq API key before running the notebook.
 
 Sensitive requests such as promotion, salary, compensation, or executive decisions can trigger a human approval checkpoint before the recommendation is stored.
 
-```
-```
 ---
 ## Table of contents
 
